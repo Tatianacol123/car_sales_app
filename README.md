@@ -26,4 +26,5 @@ requirements.txt — Librerías necesarias
    pip install -r requirements.txt
 
 4. Ejecución:
-   streamlit run app.py
+   streamlit run app.py 
+   
