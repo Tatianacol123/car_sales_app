@@ -2,7 +2,13 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+# Creación de Título para la App
+st.title("Car Sales App - Sprint 7")
+
+st.write("Con esta aplicación podrás visualizar datos de vehículos y crear gráficos.")
+
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
+st.divider()
 
 # Botón
 hist_button = st.button('Construir histograma')
@@ -19,3 +25,5 @@ if build_histogram:
     st.write('Construir un histograma para la columna odómetro')
     fig_2 = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig_2, use_container_width=True, key="hist_chk")
+
+st.divider()
