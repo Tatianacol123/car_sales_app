@@ -29,8 +29,9 @@ requirements.txt — Librerías necesarias
    streamlit run app.py 
 
  5. Enlaces de acceso
-Acceso Render
+
+**Acceso Render**
 https://car-sales-app-utvi.onrender.com
 
-Acceso GitHub
+**Acceso GitHub**
 https://github.com/Tatianacol123/car_sales_app
